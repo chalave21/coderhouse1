@@ -129,6 +129,12 @@ main h1:hover span {
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white;
 }
 
+@media (max-width: 576px) {
+  iframe {
+    width: 400px;
+  }
+}
+
 footer {
   height: auto;
   width: 100%;
