@@ -119,10 +119,16 @@ main{
         }
     }
 }
-iframe{
-    @media (max-width: 576px) {
-        display: flex;
-        width: 50%;
-        align-items: center;
+main {
+    section{
+        @media (max-width: 576px) {
+            display: flex;
+            width: 400px;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
     }
 }
+    
