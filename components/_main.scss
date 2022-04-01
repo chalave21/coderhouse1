@@ -121,6 +121,8 @@ main{
 }
 iframe{
     @media (max-width: 576px) {
-        width: 400px;
+        display: flex;
+        width: 50%;
+        align-items: center;
     }
 }

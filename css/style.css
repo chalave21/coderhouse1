@@ -131,7 +131,9 @@ main h1:hover span {
 
 @media (max-width: 576px) {
   iframe {
-    width: 400px;
+    display: flex;
+    width: 50%;
+    align-items: center;
   }
 }
 
