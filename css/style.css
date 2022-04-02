@@ -103,21 +103,22 @@ input[type=submit]:hover {
 }
 
 .tamaño {
-  height: 400px;
+  height: auto;
+  width: 100vw;
 }
 
-@media (max-width: 780px) {
-  main {
-    width: 100%;
-  }
+.alto {
+  height: 400px;
+  width: 100vw;
 }
+
 @media (max-width: 576px) {
-  main form {
+  form {
     width: 100%;
   }
 }
 @media (min-width: 577px) {
-  main form {
+  form {
     width: 40%;
   }
 }

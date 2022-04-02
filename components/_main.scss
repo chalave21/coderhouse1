@@ -87,13 +87,13 @@ input[type="submit"]:hover{
     cursor: pointer;
 }
 .tamaño{
-    height: 400px;
+    height: auto;
+    width: 100vw;
 }
-
-main{
-    @media (max-width:780px) {
-        width: 100%;
-    }
+.alto{
+    height: 400px;
+    width: 100vw;
+}
     form{
         @media (max-width: 576px) {
             width: 100%;
@@ -102,8 +102,8 @@ main{
             width: 40%;
         }
     }
+
     
-}
 
 main{
     h1:hover{
