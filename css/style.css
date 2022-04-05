@@ -139,6 +139,12 @@ main h1:hover span {
   }
 }
 
+.modal-open {
+  overflow: hidden;
+  overflow-y: scroll !important;
+  padding-right: 0 !important;
+}
+
 footer {
   height: auto;
   width: 100%;

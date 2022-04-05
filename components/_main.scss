@@ -133,3 +133,8 @@ main {
     }
 }
     
+.modal-open {
+    overflow:hidden;
+    overflow-y:scroll !important;
+    padding-right:0 !important;
+  }
